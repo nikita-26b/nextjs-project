@@ -1,0 +1,10 @@
+.home-page {
+  .home-page-title {
+    h2 {
+      font-size: clamp(2.375rem, 0.8977rem + 6.303vw, 5.625rem);
+      text-align: center;
+      color: #000c;
+      font-weight: 200;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.first-post {
+  margin: 0;
+  box-sizing: border-box;
+  //   background-image: url("../../public/travel-first.avif");
+  //   clip-path: polygon(100% 50px, 0 95%, 0 0, 100% 0);
+
+  background-image: linear-gradient(
+      to bottom,
+      rgb(245 246 252 / 50%),
+      rgb(117 19 93 / 0%)
+    ),
+    url("../../public/travel-first.avif");
+
+  height: 74vh;
+
+  .inner-box {
+    z-index: 1;
+    background-color: #fff;
+    position: absolute;
+    width: 64%;
+    height: 60%;
+    left: 20%;
+    top: 6%;
+  }
+  .travel-des {
+    padding: 15px;
+  }
+  .travellor {
+    float: right;
+  }
+}

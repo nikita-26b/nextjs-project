@@ -1,0 +1,19 @@
+body {
+  margin: unset;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1055px;
+  padding: 0 1em;
+}
+.link-tag {
+  text-decoration: unset;
+  color: inherit;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
